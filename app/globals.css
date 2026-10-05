@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root { --rose: #95264e; --deep-rose: #7a1d3f; --ink: #2b2a38; --muted: #6f6874; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: #fff; font-family: var(--font-readex), sans-serif; -webkit-font-smoothing: antialiased; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #f5d9e1; color: var(--deep-rose); }
